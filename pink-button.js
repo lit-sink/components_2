@@ -15,7 +15,7 @@ class PinkButtonElement extends LitElement {
             </style>
             
             <button @click=${() => {console.log("You clicked on the pink button!")}}>
-                <slot></slot>
+                <slot>Pink Button</slot>
             </button>
         `;
     }  
